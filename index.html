@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Establece el tamaño de la pantalla -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Challenge 1</title>
+</head>
+
+<body>
+   
+    <main class="container">
+
+        <section class="part1">
+            <img  src="images/Vector.png" class="Logo" alt="Logo de Alura">
+            <section class="header">                       
+                <h1 class="title">Encriptador de mensajes</h1>
+           </section>
+
+            <section class="input-text">
+                <textarea class="input" id="input" placeholder="Ingrese su texto aqui..." value="" autofocus oninput="this.value = this.value.replace(/[^a-z-0-9\s]/,'')"></textarea>
+                <img  src="images/Warning.png" class="img2" alt="Icono de admiración"> 
+                <h2 class="warning">Solo letras minúsculas y sin acentos</h2>
+            </section>                
+                
+            <section class="buttons">
+                <button class="button1" id="button1">Encriptar</button>
+                <button class="button2" id="button2">Desencriptar</button> 
+            </section>                  
+        </section>
+        
+        <section class="rectangle">
+            <img src="images/Muneco.png" class="muneco" id="muneco" alt="Imagen decorativa">                     
+            <p class="message1" id="message1">Ningún mensaje fue encontrado </p> 
+            <p class="message2" id="message2">Ingresa el texto que desees encriptar o desencriptar.</p>  
+            <h2 class="result" id="result"></h2>
+            <button class="button3" id="button3">Copiar</button>
+        </section> 
+         
+    </main>    
+
+    <script src="challenge_1.js"></script>
+    
+    <footer>
+        <p>&copyAuthor: Katerine Ipuz Lopez<br>
+    </footer>
+
+</body>
+</html>
+
+<!-- onkeyup="javascript:this.value=this.value.toLowerCase();" 
+onkeypress="return ((event.charCode >= 48 && event.charCode <= 57) || (event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))"-->
