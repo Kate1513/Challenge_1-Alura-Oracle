@@ -17,8 +17,6 @@ function encrypt() {
 
 //Desencriptar el mensaje
 function decrypt() {
-
-    //let input = 'fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober!';
     
     let c1= input.value.replaceAll('enter', 'e');
     let c2= c1.replaceAll('imes', 'i');
