@@ -13,18 +13,17 @@ body {
     
     width: 50%;  
     margin: 0 auto; 
-    background-color: aqua;
 }
 
 .Logo {
     position: absolute;
     margin: 2% 50.2% 0 2.25%;
-    background-color: coral;
 }
 
 .title{
     display: flex;
     justify-content: center;
+    text-align: center;
     margin: 0 auto;
     font-family: 'Inter';
     font-style: normal;
@@ -38,22 +37,20 @@ body {
     height: 810px;
     margin: 2rem auto;
     min-width: 320px;
-    background-color: darkorange;
 }
 
 .input-text{
     
     width: 70%;
     min-width: 320px;
-    margin: 70px auto;
-    background-color: brown;
+    margin: 70px auto 10px auto;
 }
 
 .input {
 
     width: 100%;
     height: 33.4rem;
-    margin: 0 auto;
+    margin: 0 auto 55px auto;
     border: none;
     resize: none;
     overflow-y: auto;
@@ -63,12 +60,6 @@ body {
     font-size: 32px;    
     color: #0A3871;    
   }
-
-.img2{
-
-    left: 310px;
-    top: 720px;
-}
 
 .warning{
     
@@ -83,7 +74,6 @@ body {
 .buttons{
     display: flex;
     justify-content: space-evenly;
-    margin: 3% 1% 1% 1%;
 }
 
 .button1 {
@@ -179,7 +169,7 @@ body {
     background: #D8DFE8;
     border: 1px solid #0A3871;
     border-radius: 24px;
-    margin: 4.3rem 0 0 2rem;    
+    margin: 4.3rem 0 0 2.4rem;    
     font-family: 'Inter';
     font-style: normal;
     font-size: 30px;
@@ -197,8 +187,8 @@ body {
 .result {
    
     top: 2%;
-    padding:5%;
-    height: 39rem;
+    margin: 2.7rem 2.5rem 0 2.4rem; 
+    height: 38rem;
     overflow-y: auto;
     font-family: 'Inter';
     font-style: normal;
@@ -206,7 +196,6 @@ body {
     font-size: 32px;
     text-align: center;    
     color: #495057;
-    background-color: aquamarine;
 }
 
 footer {
